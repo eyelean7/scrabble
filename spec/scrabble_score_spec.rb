@@ -13,6 +13,6 @@ end
     expect("az".scrabble()).to(eq(11))
   end
   it("returns a scrabble score for a word") do
-    expect("loren".scrabble()).to(eq(5))
+    expect("defenestrate".scrabble()).to(eq(16))
   end
 end
